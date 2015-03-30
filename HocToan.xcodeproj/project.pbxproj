@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6641D7061A9839AB007DE552 /* ConcurrencyProgrammingGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6641D7051A9839AB007DE552 /* ConcurrencyProgrammingGuide.pdf */; };
+		6641D70A1A985A03007DE552 /* TraThuatNguVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641D7091A985A03007DE552 /* TraThuatNguVC.m */; };
+		6645735F1A99BC2F000B63C6 /* ChuongTrinhHocImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6645735E1A99BC2D000B63C6 /* ChuongTrinhHocImage.jpg */; };
+		664573611A99BCC3000B63C6 /* TraThuatNguImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 664573601A99BCC3000B63C6 /* TraThuatNguImage.jpeg */; };
+		664573651A99BD93000B63C6 /* SachImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 664573641A99BD93000B63C6 /* SachImage.jpeg */; };
+		664573671A99C133000B63C6 /* BaiTapImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 664573661A99C132000B63C6 /* BaiTapImage.jpeg */; };
+		66794AB41A9206E800605D95 /* QuanLyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 66794AB31A9206E800605D95 /* QuanLyFile.m */; };
+		66CBA9451A88B649001C19E8 /* Sach.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA9441A88B649001C19E8 /* Sach.m */; };
+		66CBA9481A88DB8B001C19E8 /* ChuongTrinhHoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA9471A88DB8B001C19E8 /* ChuongTrinhHoc.m */; };
+		66CBA94B1A88DBA5001C19E8 /* TraThuatNgu.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA94A1A88DBA5001C19E8 /* TraThuatNgu.m */; };
+		66CBA94E1A88DBE2001C19E8 /* NoiDungBaiTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA94D1A88DBE2001C19E8 /* NoiDungBaiTap.m */; };
+		66CBA9511A88EDC1001C19E8 /* BaiTapTracNghiem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA9501A88EDC1001C19E8 /* BaiTapTracNghiem.m */; };
+		66CBA9571A890CD0001C19E8 /* ChuongTrinhHocVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA9561A890CD0001C19E8 /* ChuongTrinhHocVC.m */; };
+		66E656761A89A0420000372D /* RootData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E656751A89A0420000372D /* RootData.m */; };
+		66E656791A89AC8A0000372D /* SachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E656781A89AC8A0000372D /* SachViewController.m */; };
+		66E6567C1A89B3D20000372D /* BaiTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E6567B1A89B3D20000372D /* BaiTapViewController.m */; };
+		66E6567F1A89B8CC0000372D /* ThuatNguVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E6567E1A89B8CC0000372D /* ThuatNguVC.m */; };
+		66E656821A89CB5E0000372D /* NoiDungBaiTapVCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E656811A89CB5E0000372D /* NoiDungBaiTapVCL.m */; };
+		66E656851A89D5D70000372D /* NoiDungBaiTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E656841A89D5D70000372D /* NoiDungBaiTapCell.m */; };
+		66E656901A89DFA00000372D /* SachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E6568F1A89DFA00000372D /* SachCell.m */; };
+		66E656921A89DFB20000372D /* SachCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E656911A89DFB20000372D /* SachCell.xib */; };
+		66F7D56C1A887EDE00BFEEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F7D56B1A887EDE00BFEEFC /* Foundation.framework */; };
+		66F7D56E1A887EDE00BFEEFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F7D56D1A887EDE00BFEEFC /* CoreGraphics.framework */; };
+		66F7D5701A887EDE00BFEEFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F7D56F1A887EDE00BFEEFC /* UIKit.framework */; };
+		66F7D5761A887EDE00BFEEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F7D5741A887EDE00BFEEFC /* InfoPlist.strings */; };
+		66F7D5781A887EDE00BFEEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7D5771A887EDE00BFEEFC /* main.m */; };
+		66F7D57C1A887EDE00BFEEFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7D57B1A887EDE00BFEEFC /* AppDelegate.m */; };
+		66F7D57E1A887EDE00BFEEFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F7D57D1A887EDE00BFEEFC /* Images.xcassets */; };
+		66F7D5851A887EDF00BFEEFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F7D5841A887EDF00BFEEFC /* XCTest.framework */; };
+		66F7D5861A887EDF00BFEEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F7D56B1A887EDE00BFEEFC /* Foundation.framework */; };
+		66F7D5871A887EDF00BFEEFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F7D56F1A887EDE00BFEEFC /* UIKit.framework */; };
+		66F7D58F1A887EDF00BFEEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F7D58D1A887EDF00BFEEFC /* InfoPlist.strings */; };
+		66F7D5911A887EDF00BFEEFC /* HocToanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7D5901A887EDF00BFEEFC /* HocToanTests.m */; };
+		66F7D59B1A887F0900BFEEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F7D59A1A887F0900BFEEFC /* Main.storyboard */; };
+		66F7D59E1A887F6D00BFEEFC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7D59D1A887F6D00BFEEFC /* RootViewController.m */; };
+		66FE2EAE1A8C808F007606FE /* radio-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FE2EAC1A8C808F007606FE /* radio-off.png */; };
+		66FE2EAF1A8C8090007606FE /* radio-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FE2EAD1A8C808F007606FE /* radio-on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F7D5881A887EDF00BFEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F7D5601A887EDD00BFEEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F7D5671A887EDD00BFEEFC;
+			remoteInfo = HocToan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6641D7051A9839AB007DE552 /* ConcurrencyProgrammingGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ConcurrencyProgrammingGuide.pdf; sourceTree = "<group>"; };
+		6641D7081A985A02007DE552 /* TraThuatNguVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraThuatNguVC.h; sourceTree = "<group>"; };
+		6641D7091A985A03007DE552 /* TraThuatNguVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraThuatNguVC.m; sourceTree = "<group>"; };
+		6645735E1A99BC2D000B63C6 /* ChuongTrinhHocImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChuongTrinhHocImage.jpg; sourceTree = "<group>"; };
+		664573601A99BCC3000B63C6 /* TraThuatNguImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TraThuatNguImage.jpeg; sourceTree = "<group>"; };
+		664573641A99BD93000B63C6 /* SachImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SachImage.jpeg; sourceTree = "<group>"; };
+		664573661A99C132000B63C6 /* BaiTapImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BaiTapImage.jpeg; sourceTree = "<group>"; };
+		66794AB21A9206E800605D95 /* QuanLyFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanLyFile.h; sourceTree = "<group>"; };
+		66794AB31A9206E800605D95 /* QuanLyFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanLyFile.m; sourceTree = "<group>"; };
+		66CBA9431A88B649001C19E8 /* Sach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sach.h; sourceTree = "<group>"; };
+		66CBA9441A88B649001C19E8 /* Sach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sach.m; sourceTree = "<group>"; };
+		66CBA9461A88DB8B001C19E8 /* ChuongTrinhHoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuongTrinhHoc.h; sourceTree = "<group>"; };
+		66CBA9471A88DB8B001C19E8 /* ChuongTrinhHoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuongTrinhHoc.m; sourceTree = "<group>"; };
+		66CBA9491A88DBA5001C19E8 /* TraThuatNgu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraThuatNgu.h; sourceTree = "<group>"; };
+		66CBA94A1A88DBA5001C19E8 /* TraThuatNgu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraThuatNgu.m; sourceTree = "<group>"; };
+		66CBA94C1A88DBE2001C19E8 /* NoiDungBaiTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiDungBaiTap.h; sourceTree = "<group>"; };
+		66CBA94D1A88DBE2001C19E8 /* NoiDungBaiTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiDungBaiTap.m; sourceTree = "<group>"; };
+		66CBA94F1A88EDC1001C19E8 /* BaiTapTracNghiem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiTapTracNghiem.h; sourceTree = "<group>"; };
+		66CBA9501A88EDC1001C19E8 /* BaiTapTracNghiem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiTapTracNghiem.m; sourceTree = "<group>"; };
+		66CBA9551A890CD0001C19E8 /* ChuongTrinhHocVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuongTrinhHocVC.h; sourceTree = "<group>"; };
+		66CBA9561A890CD0001C19E8 /* ChuongTrinhHocVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuongTrinhHocVC.m; sourceTree = "<group>"; };
+		66E656741A89A0420000372D /* RootData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootData.h; sourceTree = "<group>"; };
+		66E656751A89A0420000372D /* RootData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootData.m; sourceTree = "<group>"; };
+		66E656771A89AC8A0000372D /* SachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SachViewController.h; sourceTree = "<group>"; };
+		66E656781A89AC8A0000372D /* SachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SachViewController.m; sourceTree = "<group>"; };
+		66E6567A1A89B3D20000372D /* BaiTapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiTapViewController.h; sourceTree = "<group>"; };
+		66E6567B1A89B3D20000372D /* BaiTapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiTapViewController.m; sourceTree = "<group>"; };
+		66E6567D1A89B8CC0000372D /* ThuatNguVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThuatNguVC.h; sourceTree = "<group>"; };
+		66E6567E1A89B8CC0000372D /* ThuatNguVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThuatNguVC.m; sourceTree = "<group>"; };
+		66E656801A89CB5E0000372D /* NoiDungBaiTapVCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiDungBaiTapVCL.h; sourceTree = "<group>"; };
+		66E656811A89CB5E0000372D /* NoiDungBaiTapVCL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiDungBaiTapVCL.m; sourceTree = "<group>"; };
+		66E656831A89D5D70000372D /* NoiDungBaiTapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiDungBaiTapCell.h; sourceTree = "<group>"; };
+		66E656841A89D5D70000372D /* NoiDungBaiTapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiDungBaiTapCell.m; sourceTree = "<group>"; };
+		66E6568E1A89DFA00000372D /* SachCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SachCell.h; sourceTree = "<group>"; };
+		66E6568F1A89DFA00000372D /* SachCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SachCell.m; sourceTree = "<group>"; };
+		66E656911A89DFB20000372D /* SachCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SachCell.xib; sourceTree = "<group>"; };
+		66F7D5681A887EDE00BFEEFC /* HocToan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HocToan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F7D56B1A887EDE00BFEEFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66F7D56D1A887EDE00BFEEFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66F7D56F1A887EDE00BFEEFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66F7D5731A887EDE00BFEEFC /* HocToan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HocToan-Info.plist"; sourceTree = "<group>"; };
+		66F7D5751A887EDE00BFEEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F7D5771A887EDE00BFEEFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F7D5791A887EDE00BFEEFC /* HocToan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HocToan-Prefix.pch"; sourceTree = "<group>"; };
+		66F7D57A1A887EDE00BFEEFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F7D57B1A887EDE00BFEEFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F7D57D1A887EDE00BFEEFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66F7D5831A887EDF00BFEEFC /* HocToanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HocToanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F7D5841A887EDF00BFEEFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66F7D58C1A887EDF00BFEEFC /* HocToanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HocToanTests-Info.plist"; sourceTree = "<group>"; };
+		66F7D58E1A887EDF00BFEEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F7D5901A887EDF00BFEEFC /* HocToanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HocToanTests.m; sourceTree = "<group>"; };
+		66F7D59A1A887F0900BFEEFC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		66F7D59C1A887F6D00BFEEFC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		66F7D59D1A887F6D00BFEEFC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		66FE2EAC1A8C808F007606FE /* radio-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-off.png"; sourceTree = "<group>"; };
+		66FE2EAD1A8C808F007606FE /* radio-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-on.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F7D5651A887EDD00BFEEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F7D56E1A887EDE00BFEEFC /* CoreGraphics.framework in Frameworks */,
+				66F7D5701A887EDE00BFEEFC /* UIKit.framework in Frameworks */,
+				66F7D56C1A887EDE00BFEEFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F7D5801A887EDF00BFEEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F7D5851A887EDF00BFEEFC /* XCTest.framework in Frameworks */,
+				66F7D5871A887EDF00BFEEFC /* UIKit.framework in Frameworks */,
+				66F7D5861A887EDF00BFEEFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6641D7071A9859D4007DE552 /* TraThuatNguVC */ = {
+			isa = PBXGroup;
+			children = (
+				6641D7081A985A02007DE552 /* TraThuatNguVC.h */,
+				6641D7091A985A03007DE552 /* TraThuatNguVC.m */,
+				66E6567D1A89B8CC0000372D /* ThuatNguVC.h */,
+				66E6567E1A89B8CC0000372D /* ThuatNguVC.m */,
+			);
+			name = TraThuatNguVC;
+			sourceTree = "<group>";
+		};
+		66794AB11A9206AB00605D95 /* QuanLyFile */ = {
+			isa = PBXGroup;
+			children = (
+				66794AB21A9206E800605D95 /* QuanLyFile.h */,
+				66794AB31A9206E800605D95 /* QuanLyFile.m */,
+			);
+			name = QuanLyFile;
+			sourceTree = "<group>";
+		};
+		66E656731A89A0180000372D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66CBA9461A88DB8B001C19E8 /* ChuongTrinhHoc.h */,
+				66CBA9471A88DB8B001C19E8 /* ChuongTrinhHoc.m */,
+				66CBA9491A88DBA5001C19E8 /* TraThuatNgu.h */,
+				66CBA94A1A88DBA5001C19E8 /* TraThuatNgu.m */,
+				66CBA94F1A88EDC1001C19E8 /* BaiTapTracNghiem.h */,
+				66CBA9501A88EDC1001C19E8 /* BaiTapTracNghiem.m */,
+				66CBA94C1A88DBE2001C19E8 /* NoiDungBaiTap.h */,
+				66CBA94D1A88DBE2001C19E8 /* NoiDungBaiTap.m */,
+				66CBA9431A88B649001C19E8 /* Sach.h */,
+				66CBA9441A88B649001C19E8 /* Sach.m */,
+				66E656741A89A0420000372D /* RootData.h */,
+				66E656751A89A0420000372D /* RootData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		66E656881A89DF060000372D /* ChuongTrinhHoc */ = {
+			isa = PBXGroup;
+			children = (
+				66CBA9551A890CD0001C19E8 /* ChuongTrinhHocVC.h */,
+				66CBA9561A890CD0001C19E8 /* ChuongTrinhHocVC.m */,
+				6641D7051A9839AB007DE552 /* ConcurrencyProgrammingGuide.pdf */,
+			);
+			name = ChuongTrinhHoc;
+			sourceTree = "<group>";
+		};
+		66E656891A89DF220000372D /* BaiTap */ = {
+			isa = PBXGroup;
+			children = (
+				66E6567A1A89B3D20000372D /* BaiTapViewController.h */,
+				66E6567B1A89B3D20000372D /* BaiTapViewController.m */,
+				66E656801A89CB5E0000372D /* NoiDungBaiTapVCL.h */,
+				66E656811A89CB5E0000372D /* NoiDungBaiTapVCL.m */,
+				66E656831A89D5D70000372D /* NoiDungBaiTapCell.h */,
+				66E656841A89D5D70000372D /* NoiDungBaiTapCell.m */,
+				66FE2EAC1A8C808F007606FE /* radio-off.png */,
+				66FE2EAD1A8C808F007606FE /* radio-on.png */,
+			);
+			name = BaiTap;
+			sourceTree = "<group>";
+		};
+		66E6568A1A89DF350000372D /* SachThamKhao */ = {
+			isa = PBXGroup;
+			children = (
+				66E656771A89AC8A0000372D /* SachViewController.h */,
+				66E656781A89AC8A0000372D /* SachViewController.m */,
+				66E6568E1A89DFA00000372D /* SachCell.h */,
+				66E6568F1A89DFA00000372D /* SachCell.m */,
+				66E656911A89DFB20000372D /* SachCell.xib */,
+			);
+			name = SachThamKhao;
+			sourceTree = "<group>";
+		};
+		66F7D55F1A887EDD00BFEEFC = {
+			isa = PBXGroup;
+			children = (
+				66F7D5711A887EDE00BFEEFC /* HocToan */,
+				66F7D58A1A887EDF00BFEEFC /* HocToanTests */,
+				66F7D56A1A887EDE00BFEEFC /* Frameworks */,
+				66F7D5691A887EDE00BFEEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F7D5691A887EDE00BFEEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F7D5681A887EDE00BFEEFC /* HocToan.app */,
+				66F7D5831A887EDF00BFEEFC /* HocToanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F7D56A1A887EDE00BFEEFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F7D56B1A887EDE00BFEEFC /* Foundation.framework */,
+				66F7D56D1A887EDE00BFEEFC /* CoreGraphics.framework */,
+				66F7D56F1A887EDE00BFEEFC /* UIKit.framework */,
+				66F7D5841A887EDF00BFEEFC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F7D5711A887EDE00BFEEFC /* HocToan */ = {
+			isa = PBXGroup;
+			children = (
+				66F7D57A1A887EDE00BFEEFC /* AppDelegate.h */,
+				66F7D57B1A887EDE00BFEEFC /* AppDelegate.m */,
+				66F7D57D1A887EDE00BFEEFC /* Images.xcassets */,
+				66F7D59A1A887F0900BFEEFC /* Main.storyboard */,
+				66F7D59C1A887F6D00BFEEFC /* RootViewController.h */,
+				66F7D59D1A887F6D00BFEEFC /* RootViewController.m */,
+				6645735E1A99BC2D000B63C6 /* ChuongTrinhHocImage.jpg */,
+				664573601A99BCC3000B63C6 /* TraThuatNguImage.jpeg */,
+				664573641A99BD93000B63C6 /* SachImage.jpeg */,
+				664573661A99C132000B63C6 /* BaiTapImage.jpeg */,
+				66794AB11A9206AB00605D95 /* QuanLyFile */,
+				66E656881A89DF060000372D /* ChuongTrinhHoc */,
+				6641D7071A9859D4007DE552 /* TraThuatNguVC */,
+				66E656891A89DF220000372D /* BaiTap */,
+				66E6568A1A89DF350000372D /* SachThamKhao */,
+				66E656731A89A0180000372D /* Data */,
+				66F7D5721A887EDE00BFEEFC /* Supporting Files */,
+			);
+			path = HocToan;
+			sourceTree = "<group>";
+		};
+		66F7D5721A887EDE00BFEEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F7D5731A887EDE00BFEEFC /* HocToan-Info.plist */,
+				66F7D5741A887EDE00BFEEFC /* InfoPlist.strings */,
+				66F7D5771A887EDE00BFEEFC /* main.m */,
+				66F7D5791A887EDE00BFEEFC /* HocToan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F7D58A1A887EDF00BFEEFC /* HocToanTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F7D5901A887EDF00BFEEFC /* HocToanTests.m */,
+				66F7D58B1A887EDF00BFEEFC /* Supporting Files */,
+			);
+			path = HocToanTests;
+			sourceTree = "<group>";
+		};
+		66F7D58B1A887EDF00BFEEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F7D58C1A887EDF00BFEEFC /* HocToanTests-Info.plist */,
+				66F7D58D1A887EDF00BFEEFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F7D5671A887EDD00BFEEFC /* HocToan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F7D5941A887EDF00BFEEFC /* Build configuration list for PBXNativeTarget "HocToan" */;
+			buildPhases = (
+				66F7D5641A887EDD00BFEEFC /* Sources */,
+				66F7D5651A887EDD00BFEEFC /* Frameworks */,
+				66F7D5661A887EDD00BFEEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HocToan;
+			productName = HocToan;
+			productReference = 66F7D5681A887EDE00BFEEFC /* HocToan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F7D5821A887EDF00BFEEFC /* HocToanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F7D5971A887EDF00BFEEFC /* Build configuration list for PBXNativeTarget "HocToanTests" */;
+			buildPhases = (
+				66F7D57F1A887EDF00BFEEFC /* Sources */,
+				66F7D5801A887EDF00BFEEFC /* Frameworks */,
+				66F7D5811A887EDF00BFEEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F7D5891A887EDF00BFEEFC /* PBXTargetDependency */,
+			);
+			name = HocToanTests;
+			productName = HocToanTests;
+			productReference = 66F7D5831A887EDF00BFEEFC /* HocToanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F7D5601A887EDD00BFEEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					66F7D5821A887EDF00BFEEFC = {
+						TestTargetID = 66F7D5671A887EDD00BFEEFC;
+					};
+				};
+			};
+			buildConfigurationList = 66F7D5631A887EDD00BFEEFC /* Build configuration list for PBXProject "HocToan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66F7D55F1A887EDD00BFEEFC;
+			productRefGroup = 66F7D5691A887EDE00BFEEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F7D5671A887EDD00BFEEFC /* HocToan */,
+				66F7D5821A887EDF00BFEEFC /* HocToanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F7D5661A887EDD00BFEEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664573651A99BD93000B63C6 /* SachImage.jpeg in Resources */,
+				66FE2EAF1A8C8090007606FE /* radio-on.png in Resources */,
+				6641D7061A9839AB007DE552 /* ConcurrencyProgrammingGuide.pdf in Resources */,
+				664573611A99BCC3000B63C6 /* TraThuatNguImage.jpeg in Resources */,
+				66E656921A89DFB20000372D /* SachCell.xib in Resources */,
+				66F7D59B1A887F0900BFEEFC /* Main.storyboard in Resources */,
+				6645735F1A99BC2F000B63C6 /* ChuongTrinhHocImage.jpg in Resources */,
+				66FE2EAE1A8C808F007606FE /* radio-off.png in Resources */,
+				66F7D5761A887EDE00BFEEFC /* InfoPlist.strings in Resources */,
+				664573671A99C133000B63C6 /* BaiTapImage.jpeg in Resources */,
+				66F7D57E1A887EDE00BFEEFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F7D5811A887EDF00BFEEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F7D58F1A887EDF00BFEEFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F7D5641A887EDD00BFEEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E6567F1A89B8CC0000372D /* ThuatNguVC.m in Sources */,
+				66E656791A89AC8A0000372D /* SachViewController.m in Sources */,
+				66E656821A89CB5E0000372D /* NoiDungBaiTapVCL.m in Sources */,
+				66E656851A89D5D70000372D /* NoiDungBaiTapCell.m in Sources */,
+				66CBA9481A88DB8B001C19E8 /* ChuongTrinhHoc.m in Sources */,
+				66F7D57C1A887EDE00BFEEFC /* AppDelegate.m in Sources */,
+				66CBA9451A88B649001C19E8 /* Sach.m in Sources */,
+				66F7D5781A887EDE00BFEEFC /* main.m in Sources */,
+				66F7D59E1A887F6D00BFEEFC /* RootViewController.m in Sources */,
+				66E656761A89A0420000372D /* RootData.m in Sources */,
+				66E656901A89DFA00000372D /* SachCell.m in Sources */,
+				66E6567C1A89B3D20000372D /* BaiTapViewController.m in Sources */,
+				66CBA94B1A88DBA5001C19E8 /* TraThuatNgu.m in Sources */,
+				66794AB41A9206E800605D95 /* QuanLyFile.m in Sources */,
+				6641D70A1A985A03007DE552 /* TraThuatNguVC.m in Sources */,
+				66CBA9511A88EDC1001C19E8 /* BaiTapTracNghiem.m in Sources */,
+				66CBA94E1A88DBE2001C19E8 /* NoiDungBaiTap.m in Sources */,
+				66CBA9571A890CD0001C19E8 /* ChuongTrinhHocVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F7D57F1A887EDF00BFEEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F7D5911A887EDF00BFEEFC /* HocToanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F7D5891A887EDF00BFEEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F7D5671A887EDD00BFEEFC /* HocToan */;
+			targetProxy = 66F7D5881A887EDF00BFEEFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F7D5741A887EDE00BFEEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F7D5751A887EDE00BFEEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66F7D58D1A887EDF00BFEEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F7D58E1A887EDF00BFEEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F7D5921A887EDF00BFEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F7D5931A887EDF00BFEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F7D5951A887EDF00BFEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HocToan/HocToan-Prefix.pch";
+				INFOPLIST_FILE = "HocToan/HocToan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66F7D5961A887EDF00BFEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HocToan/HocToan-Prefix.pch";
+				INFOPLIST_FILE = "HocToan/HocToan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66F7D5981A887EDF00BFEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HocToan.app/HocToan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HocToan/HocToan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HocToanTests/HocToanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66F7D5991A887EDF00BFEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HocToan.app/HocToan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HocToan/HocToan-Prefix.pch";
+				INFOPLIST_FILE = "HocToanTests/HocToanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F7D5631A887EDD00BFEEFC /* Build configuration list for PBXProject "HocToan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F7D5921A887EDF00BFEEFC /* Debug */,
+				66F7D5931A887EDF00BFEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F7D5941A887EDF00BFEEFC /* Build configuration list for PBXNativeTarget "HocToan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F7D5951A887EDF00BFEEFC /* Debug */,
+				66F7D5961A887EDF00BFEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F7D5971A887EDF00BFEEFC /* Build configuration list for PBXNativeTarget "HocToanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F7D5981A887EDF00BFEEFC /* Debug */,
+				66F7D5991A887EDF00BFEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F7D5601A887EDD00BFEEFC /* Project object */;
+}
